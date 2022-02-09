@@ -1,0 +1,5 @@
+bert4keras
+tensorflow==1.15
+grpclib
+protobuf
+grpcio-tools

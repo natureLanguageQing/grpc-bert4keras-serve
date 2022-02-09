@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package TextClassify;
+
+service Greeter {
+  rpc SayTextClassify (TextClassifyRequest) returns (TextClassifyReply) {}
+}
+
+message TextClassifyRequest {
+  string model = 1;
+  string doc_id = 2;
+  string text = 3;
+}
+
+message TextClassifyReply {
+  string label = 1;
+  string score = 2;
+  message Scores {
+    float negative = 1;
+    float neutral = 2;
+    float positive = 3;
+  }
+  Scores scores = 3;
+
+
+}
+
+
+
