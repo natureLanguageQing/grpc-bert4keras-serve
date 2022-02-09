@@ -1,0 +1,1 @@
+python -m text_classification_client

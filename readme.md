@@ -55,3 +55,11 @@ if __name__ == '__main__':
 ```
 sh text_classification_serve.sh
 ```
+
+测试结果
+```100%|█████████████████████████████████████████████████████| 1000/1000 [00:14<00:00, 70.53it/s]```
+测试环境
+GPU
+TITAN Xp
+CPU
+7核 Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz
